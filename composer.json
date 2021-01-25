@@ -1,0 +1,27 @@
+{
+  "name": "jafarili/yii2-telegram-log",
+  "description": "Yii 2.0 telegram log target, send logs to the telegram chats or channels",
+  "keywords": ["yii2", "telegram", "bot", "log"],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/Jafarili/yii2-telegram-log/issues",
+    "source": "https://github.com/Jafarili/yii2-telegram-log"
+  },
+  "authors": [
+    {
+      "name": "Ali Jafari",
+      "email": "ali@jafari.li"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "irazasyed/telegram-bot-sdk": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jafarili\\log\\": "src"
+    }
+  }
+}
