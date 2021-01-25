@@ -9,13 +9,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require -vv --prefer-dist Jafarili/yii2-telegram-log
+composer require jafarili/yii2-telegram-log
 ```
 
-or add below line to the require section of composer.json file and then run `php composer.phar update -vv --prefer-dist --profile`
+or add below line to the require section of composer.json file and then run `composer update`
 
 ```
-"Jafarili/yii2-telegram-log": "*"
+"jafarili/yii2-telegram-log": "*"
 ```
 
 ## How To Use ##
